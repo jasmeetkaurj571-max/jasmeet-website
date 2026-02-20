@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasmeet | Official Website</title>
+
+<meta name="description" content="Jasmeet's official website. Makeup lover, cricket fan, and Virat Kohli admirer from UAE.">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #f8dfe8);
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d46a92;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #555;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #d46a92;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #d46a92;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* ABOUT */
+.about {
+  background: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d46a92;
+}
+
+/* GALLERY */
+.gallery {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* VIRAT SECTION */
+.virat {
+  background: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.virat h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d46a92;
+}
+
+.quote {
+  font-style: italic;
+  margin: 20px auto 40px;
+  max-width: 600px;
+}
+
+.virat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.virat-grid img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.virat-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* BUTTON */
+button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  background: #d46a92;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #b94f77;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #d46a92;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>Jasmeet</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#virat">Inspiration</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Welcome to My World ✨</h1>
+  <p>Makeup lover 💄 | Cricket fan 🏏 | Living in UAE 🇦🇪</p>
+</section>
+
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    Hi, I'm Jasmeet 💗  
+    I love makeup, glam, and everything beauty.  
+    I absolutely love watching cricket and I’m a huge fan of Virat Kohli 👑🏏  
+    I live in the UAE and this is my personal digital space.
+  </p>
+
+  <a href="https://instagram.com/jassii18_" target="_blank">
+    <button>Follow Me @jassii18_ 💕</button>
+  </a>
+</section>
+
+<section class="gallery" id="gallery">
+  <h2>My Gallery ✨</h2>
+  <div class="gallery-grid">
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+    <img src="photo4.jpg">
+    <img src="photo5.jpg">
+    <img src="photo6.jpg">
+  </div>
+</section>
+
+<section class="virat" id="virat">
+  <h2>My Inspiration – Virat Kohli 👑</h2>
+
+  <p class="quote">
+    “Self-belief and hard work will always earn you success.”
+  </p>
+
+  <p>
+    Virat Kohli is one of the greatest cricketers in the world.  
+    Former captain of India, multiple ICC award winner,  
+    and one of the fastest players to score 8,000–13,000 ODI runs.  
+    He has over 75+ international centuries and is known for his passion,
+    discipline, and fitness.
+  </p>
+
+  <div class="virat-grid">
+    <img src="virat1.jpg">
+    <img src="virat2.jpg">
+    <img src="virat3.jpg">
+    <img src="virat4.jpg">
+  </div>
+</section>
+
+<footer>
+  © 2026 Jasmeet 💗 | UAE
+</footer>
+
+</body>
+</html>
